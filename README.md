@@ -1,4 +1,3 @@
-<br />
 <p align="center">
   <h3 align="center">Twig Tech Test</h3>
 
@@ -12,33 +11,16 @@
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#scripts">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `Twig Tech Test`, `project_description`
 
 ### Built With
 
@@ -54,12 +36,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Ensure node and typescript are installed globally
 
 ### Installation
 
@@ -71,19 +48,20 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
+### Scripts
 
-<!-- USAGE EXAMPLES -->
+#### npm run dev
 
-## Usage
+Restarts the node server when files change
 
-<!-- LICENSE -->
+#### npm run watch
+
+Runs the typescript complier in watch mode
+
+#### npm run test
+
+Runs the unit tests with jest
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-<!-- CONTACT -->
-
-## Contact
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
