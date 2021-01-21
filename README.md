@@ -15,7 +15,8 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#scripts">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#scripts">Scripts</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -48,11 +49,18 @@ Ensure node and typescript are installed globally
    ```sh
    npm install
    ```
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Once you are up and running, you can use the GraphQL playground to test the query like so -
+
+![title](images/example.png) 
+
 ### Scripts
 
 #### npm run dev
 
-Restarts the node server when files change
+Restarts the node server when files change - once this is running you can make requests from http://localhost:4000/graphql
 
 #### npm run watch
 
